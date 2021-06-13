@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <meta charset="utf-8" content="width=device-width ,intial scale=1.0"name="registration">
+        <title>registration page</title>
+        <link rel="stylesheet" href="index1.css">
+    </head>
+    <body>
+        <div class="back">
+            <a href="index.html">Back to main page</a>
+        </div><br><br>
+        <h1>Hello</h1>
+        <h1>you must fill the registration form</h1>
+        <form name="form" onsubmit="return(validation())" action="index2.html">
+            <table>
+                <tr>
+                    <th> Enter your Fist name:</th>
+                    <td>
+                        <input type="text" class="t1" name="fname" id="fname"placeholder="اكتب الاسم الاول" autofocus="autofocus" required>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Enter your Last name:</th>
+                    <td>
+                        <input type="text" class="t1" name="lname" id="lname" autofocus="autofocus" placeholder="اكتب الاسم الاخير"required>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Enter your age:</th>
+                    <td>
+                        <input type="text" class="t1"name="age" id="age"autofocus="autofocus" placeholder="ادخل عمرك"required>
+                        <div class="t1" id="div3"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Enter your Phone number:</th>
+                    <td>
+                        <input type="text" class="t1" name="number" id="number" autofocus="autofocus" maxlength="11" minlength="11"placeholder="اكتب رقم الهاتف"required>
+                        <div id="div4" class="t1"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Enter your Adresse:</th>
+                    <td>
+                        <input type="text" class="t1" name="adresse"id="adresse" autofocus="autofocus" placeholder="اكتب العنوان"required>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Choose your Gender:</th>
+                    <td>
+                        <select class="t1" name="select" id="select" autofocus="autofocus"required>
+                            <option></option>
+                            <option>Male</option>
+                            <option>Female</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Enter your E-mail:</th>
+                    <td><input type="email" class="t1" name="email"id="email" autofocus="autofocus" placeholder="ادخل الايميل" required></td>
+                </tr>
+                <tr>
+                    <th>Enter your Passowrd:</th>
+                    <td>
+                        <input type="password" class="t1" name="pass"id="pass" autofocus="autofocus"placeholder= "اكتب كلمه المرور" required>
+                        <a href="#" id="span" style="padding: 7px;background-color: rgb(31, 146, 115);font-size: 13px;">Show password</a>
+                        <div id="div8" class="t1"></div>
+                    </td>
+                </tr>
+            </table><br>
+            <div style="text-align: center;">
+                <input type="submit" value="sign up" style="width: 17%; background-color: rgb(36, 121, 211); padding:15px; font-size: 20px;">
+                <input type="reset" value="Clear" style="width: 17%; background-color: rgb(36, 121, 211); padding:15px; margin: 0 5px; font-size: 20px;">
+            </div>
+        </form>
+        <script src="index1.js"></script>
+    </body>
+</html>

@@ -1,0 +1,91 @@
+body
+{
+    background-image: url("back1.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.main
+{
+    width: 80%;
+    margin: auto;
+    padding: 0;
+    font-size: 30px;
+}
+.main ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    text-align: center;
+}
+.main ul li
+{
+    float: left;
+    width: 33.3333%;
+}
+li a
+{
+    display: block;
+    padding:15px 20px;
+    margin: 2px;
+    background-color: rgb(112, 192, 216);
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+li a:hover{
+    background-color: rgb(49, 136, 14);
+}
+.sport
+{
+    width: 80%;
+    margin: auto;
+}
+h1{text-align: center; color: rgb(164, 170, 201); font-size: 40px;}
+p{color:rgb(164, 202, 74);font-size: 30px;}
+h2{color: rgb(202, 60, 41);}
+.type
+{
+    width: 90%;
+    margin: auto;
+    padding: 0;
+    font-size: 20px;
+}
+.type ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+}
+.type ul li 
+{
+    float: left;
+    width: 10%;
+    display: block;
+    padding:15px 20px;
+    margin: 3px;
+    background-color: rgb(112, 192, 216);
+}
+.type ul li:hover
+{
+    background-color: rgb(128, 49, 88);
+} 
+.link1
+{
+    text-align: center;text-decoration: none;padding: 15px;margin: 0;background-color: forestgreen;width: 10%;float: right;color: fuchsia;font-size: 30px;
+}
+.link2
+{
+    text-align: center;text-decoration: none;padding: 15px;margin: 0;background-color: forestgreen;width: 10%;float: left;color: fuchsia;font-size: 30px;
+}
+.link1:hover{background-color: burlywood;}
+.link2:hover{background-color: burlywood;}
+@media screen and (max-width:1535px){
+    .main ul li{float: none;width: 100%;}
+    .type ul li {float: none;width: 100%;}
+    .link1{width: 20%;}
+    .link2{width: 20%;}
+}

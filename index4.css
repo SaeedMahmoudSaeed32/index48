@@ -1,0 +1,104 @@
+body{background-image: url("back3.jpg"); background-repeat: no-repeat; background-size: cover;}
+.first
+{
+    width: 80%;
+    margin: auto;
+    padding: 0;
+    font-size: 30px;
+}
+.first ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    text-align: center;
+}
+.first ul li
+{
+    float: left;
+    width: 33.3333%;
+}
+li a
+{
+    display: block;
+    padding:15px 20px;
+    margin: 2px;
+    background-color: rgb(112, 192, 216);
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+li a:hover{
+    background-color: rgb(49, 136, 14);
+}
+.leagues{
+    width: 100%;
+    margin: auto;
+    padding: 0;
+    font-size: 30px;
+}
+.leagues ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(43, 148, 180);
+    text-align: center;
+}
+.leagues ul li
+{
+    float: left;
+    width: 25%;
+}
+.leagues ul li a
+{
+    display: block;
+    padding:15px 20px;
+    margin: 2px;
+    background-color: rgb(34, 22, 78);
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.leagues li a:hover{
+    background-color: rgb(136, 228, 32);
+}
+.image{background-image: url("basketball.jpg");}
+h2{text-align: center; font-size:25px; color: dodgerblue ;}
+img{border-radius: 50%; margin-left: 10%;}
+.main{display: flex; flex-wrap: wrap;}
+.seconed{width: 31.333%; padding: 1%;}
+.seconed h1{color: rgb(16, 183, 189);text-align: center;}
+.seconed h3{font-size: 23px; color: rgb(230, 236, 225);}
+.link1
+{
+    text-align: center;text-decoration: none;padding: 15px;margin: 0;background-color: forestgreen;width: 30%;float: right;color: fuchsia;font-size: 30px;
+}
+.link2
+{
+    text-align: center;text-decoration: none;padding: 15px;margin: 0;background-color: forestgreen;width: 30%;float: left;color: fuchsia;font-size: 30px;
+}
+.link1:hover{background-color: burlywood;}
+.link2:hover{background-color: burlywood;}
+@media screen and (max-width:1200px){
+    .max{font-size: 20px;}
+    .seconed{width: 46%; padding: 2%;}
+    #ibrahimovic{margin-left: 25%;}
+    .link1{width: 20%;}
+    .link2{width: 20%;}
+    .teams{font-size: 20px; float: none; width: 100%;}
+}
+@media screen and (max-width:750px){
+    .first ul li{float: none;width: 100%;}
+    .seconed{width: 96%; padding: 2%;}
+    .seconed img{margin-left: 28%;}
+    #ibrahimovic{margin-right: 28%;}
+    .link1{width: 20%;}
+    .link2{width: 20%;}
+}
+@media screen and (max-width:1530px){
+    .image{background-image:none};
+    .teams{font-size: 20px;}
+    .divlist ul li {font-size: 20px;float: none; width: 100%;};
+}

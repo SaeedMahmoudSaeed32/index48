@@ -1,0 +1,100 @@
+body
+{
+    background-color: beige;
+}
+.main
+{
+    width: 100%;
+    margin: auto;
+    padding: 0;
+    font-size: 30px;
+}
+.main ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    text-align: center;
+}
+.main ul li
+{
+    float: left;
+    width: 20%;
+}
+li a
+{
+    display: block;
+    padding:15px 20px;
+    margin: 2px;
+    background-color: rgba(102, 41, 0, 0.986);
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+li a:hover{
+    background-color: rgb(45, 88, 99);
+}
+h1{text-align: center; color: deeppink;}  
+.slide1{width: 1400px; margin: auto; overflow: hidden;margin-top: 20px;}
+.slide1 figure{position: relative; width: 500%; margin: 0; left: 0; animation: 30s slider ease-in-out infinite;}
+.slide1 figure img{
+    width: 1400px;
+    height: 600px;
+    float: left;
+    opacity: 0.8;
+}
+.slide1 figure img:hover{opacity: 1.5;}
+
+.slide2{width: 1400px; margin: auto; overflow: hidden;margin-top: 10px;}
+.slide2 figure{position: relative; width: 500%; margin: 0; left: 0; animation: 30s slider ease-in-out infinite;}
+.slide2 figure img{
+    width: 1400px;
+    height: 600px;
+    float: left;
+    opacity: 0.7;
+}
+.slide2 figure img:hover{opacity: 1.5;}
+
+.slide3{width: 1400px; margin: auto; overflow: hidden;margin-top: 10px;}
+.slide3 figure{position: relative; width: 500%; margin: 0; left: 0; animation: 30s slider ease-in-out infinite;}
+.slide3 figure img{
+    width: 1400px;
+    height: 600px;
+    float: left;
+    opacity: 0.7;
+}
+.slide3 figure img:hover{opacity: 1.5;}
+
+.slide4{width: 1400px; margin: auto; overflow: hidden;margin-top: 10px;}
+.slide4 figure{position: relative; width: 500%; margin: 0; left: 0; animation: 30s slider ease-in-out infinite;}
+.slide4 figure img{
+    width: 1400px;
+    height: 600px;
+    float: left;
+    opacity: 0.7;
+}
+.slide4 figure img:hover{opacity: 1.5;}
+
+@keyframes slider{
+    0%{left: 0;}
+    25%{left: -100%;}
+    50%{left: -200%;}
+    75%{left: -300%;}
+    100%{left: -400%;}
+}
+@media screen and (max-width:900px){
+    .login{float: right;}
+    h1{text-align: center;}
+    .slide1{width: 100%;}
+    .slide1 figure img{ width: 100%;}
+    .slide2{width: 100%;}
+    .slide2 figure img{ width: 100%;}
+    .slide3{width: 100%;}
+    .slide3 figure img{ width: 100%;}
+    .slide4{width: 100%;}
+    .slide4 figure img{ width: 100%;}
+}
+@media screen and (max-width:1350px){
+    .main ul li{float: none;width: 100%;}
+}
